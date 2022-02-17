@@ -507,6 +507,7 @@ button {
   margin-bottom: 30px;
 
   width: 370px;
+  border-radius: 4px;
 
   background-color: var(--brand-white);
 }
