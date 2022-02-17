@@ -146,7 +146,7 @@ button {
 .icon-mail:focus,
 .icon-phone:hover,
 .icon-phone:focus {
-  fill: var(--brand-color);
+  fill: currentColor;
 }
 
 .header .link:active,
@@ -157,9 +157,6 @@ button {
   color: var(--brand-color);
 }
 
-.link.icon:hover + .icon-mail {
-  fill: var(--brand-color);
-}
 .link.current {
   color: var(--brand-color);
 }
@@ -352,7 +349,12 @@ button {
 .icon:hover {
   fill: var(--brand-white);
 }
-
+.icon-link:hover svg {
+  fill: var(--brand-white);
+}
+.icon-link:focus svg {
+  fill: var(--brand-white);
+}
 /* секция Наши Клиенты  */
 .section.clients .point {
   border: 1px solid #afb1b8;
@@ -368,6 +370,12 @@ button {
 }
 .client-logo:hover,
 .client-logo:focus {
+  fill: var(--brand-color);
+}
+.clients .point:hover svg {
+  fill: var(--brand-color);
+}
+.clients .point:focus svg {
   fill: var(--brand-color);
 }
 
