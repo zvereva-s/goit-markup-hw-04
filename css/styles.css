@@ -142,13 +142,18 @@ button {
   margin-right: 10px;
   fill: #757575;
 }
-.icon-mail:hover,
+/* .icon-mail:hover,
 .icon-mail:focus,
 .icon-phone:hover,
 .icon-phone:focus {
   fill: currentColor;
+} */
+.header .icon.link:hover svg {
+  fill: var(--brand-color);
 }
-
+.header .icon.link:focus svg {
+  fill: var(--brand-color);
+}
 .header .link:active,
 .header .link:focus,
 .header .link:hover,
